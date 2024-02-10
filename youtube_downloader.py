@@ -122,7 +122,7 @@ def main():
         print("Downloading video...")
         clip_media = None
         if not args.path:
-            args.path = '..'
+            args.path = '.'
         if args.clip:
             clip_media = (args.start, args.end)
         download_video(args.url, args.path, clip_media, args.mp3, args.cookies)

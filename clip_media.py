@@ -25,7 +25,7 @@ def main():
     parser.add_argument("-e", "--end", type=int, default=None, help="End time (in seconds) to clip to. Default is the end of the file.")
     args = parser.parse_args()
 
-    clip_mp3(args.input_path, args.output_path, args.start, args.end)
+    clip_mp4(args.input_path, args.output_path, args.start, args.end)
     
 if __name__ == "__main__":
     main()
